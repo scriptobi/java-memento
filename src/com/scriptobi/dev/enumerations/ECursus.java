@@ -1,4 +1,4 @@
-package com.scriptobi.dev.enumeration;
+package com.scriptobi.dev.enumerations;
 
 public enum ECursus {
     EPSI_Dev_B3 ("EPSI Dev B3"),

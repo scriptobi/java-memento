@@ -5,6 +5,7 @@ public abstract class Individu {
     private int id; // identifiant numérique
     private String lastName; // prénom
     private String firstName; // nom
+    private int age;
 
     // assessors - assesseurs
     public int getId() { return this.id; }
@@ -13,6 +14,8 @@ public abstract class Individu {
     public void setLastName(String lastName) { this.lastName = lastName; }
     public String getFirstName() { return this.firstName; }
     public void setFirstName(String firstName) { this.firstName = firstName; }
+    public int getAge() { return this.age; }
+    public void setAge(int age) { this.age = age; }
 
     protected Individu() {}
     protected Individu(int id) { this(id, "", ""); }

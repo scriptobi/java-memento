@@ -1,10 +1,11 @@
 package com.scriptobi.dev.classes;
 
-import com.scriptobi.dev.enumeration.ECursus;
+import com.scriptobi.dev.enumerations.ECursus;
 
 public class Student extends Individu {
-    private ECursus cursus; // enumeration cursus
-    public String getCursus() { return cursus.getCursusLabel(); }
+    private ECursus cursus;// = ECursus.EPSI_Dev_B3; // enumeration cursus
+    public String getCursusName() { return cursus.getCursusLabel(); }
+    public ECursus getCursus() { return cursus; }
 
     // constructors - constructeurs
     /**
